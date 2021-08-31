@@ -1,0 +1,13 @@
+current directory: /home/antony/workspace/helloapp/vendor/bunle/ruby/2.7.0/gems/json-2.5.1/ext/json
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20210831-9377-3wotk9.rb extconf.rb
+creating Makefile
+
+current directory: /home/antony/workspace/helloapp/vendor/bunle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/antony/workspace/helloapp/vendor/bunle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR="
+make: Цель «all» не требует выполнения команд.
+
+current directory: /home/antony/workspace/helloapp/vendor/bunle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR=" install
