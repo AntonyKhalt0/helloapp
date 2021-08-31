@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+git_source(:github) { |repo| "https://git.hub.com/#{repo}.git" }
+
 gem 'rails',        '5.2.3'
 gem 'bootsnap',     '1.4.6', require: false
 gem 'sass-rails',   '5.0.6'
