@@ -12,6 +12,13 @@ gem 'turbolinks',   '5.1.1'
 gem 'jbuilder',     '2.11.2'
 gem 'puma',         '3.12.4'
 gem 'sdoc',         '1.0.0', group: :doc
+# Use Redis adapter to run Action Cable in production
+gem 'redis', '~> 4.0'
+# Use Active Model has_secure_password
+gem 'bcrypt', '~> 3.1.7'
+
+# Use Active Storage variant
+gem 'image_processing', '~> 1.2'
 
 group :development, :test do
   gem 'byebug',      '11.1.1'
