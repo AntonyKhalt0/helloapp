@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://git.hub.com/#{repo}.git" }
 
 gem 'rails',        '5.2.3'
 gem 'bootsnap',     '1.4.6', require: false
+gem 'pg',             '1.2.3'
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '2.7.2'
 gem 'coffee-rails', '4.2.2'
@@ -30,6 +31,5 @@ group :development do
 end
 
 group :production do
-  gem 'pg',             '1.2.3'
   gem 'rails_12factor', '0.0.3'
 end
