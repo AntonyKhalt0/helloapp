@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.2.3'
+gem 'bootsnap',     '1.4.6', require: false
 gem 'sass-rails',   '5.0.6'
 gem 'uglifier',     '2.7.2'
 gem 'coffee-rails', '4.2.2'

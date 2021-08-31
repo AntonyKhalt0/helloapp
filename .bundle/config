@@ -1,2 +1,3 @@
 ---
+BUNDLE_PATH: "vendor/bunle"
 BUNDLE_WITHOUT: "production:producrion"
