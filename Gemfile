@@ -11,6 +11,7 @@ gem 'jbuilder',     '2.11.2'
 gem 'sdoc',         '1.0.0', group: :doc
 
 group :development, :test do
+  gem 'sqlite3',     '1.4.2'
   gem 'byebug',      '11.1.1'
 end
 
