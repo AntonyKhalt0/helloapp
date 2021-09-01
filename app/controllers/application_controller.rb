@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
 	def hello
 		render plain: "Hola, mundo!"
 	end
+
+	def goodbye
+		render plain: "Goodbye, world!"
+	end
 end
